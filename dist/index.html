@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="todo-title">Title:</label>
+            <input type="text" name="todo-title" id="todo-title"
+                value="test">
+        </div>
+        <div>
+            <label for="todo-desc">Description:</label>
+            <textarea name="todo-desc" id="todo-desc">test description</textarea>
+        </div>
+        <div>
+            <label for="todo-dueDate">Due Date:</label>
+            <input type="date" name="todo-dueDate" id="todo-dueDate"
+                value="2020-08-18">
+        </div>
+        <div>
+            <label for="todo-low-prio">Low:</label>
+            <input type="radio" name="priority" id="todo-low-prio">
+        </div>
+        <div>
+            <label for="todo-med-prio">Medium:</label>
+            <input type="radio" name="priority" id="todo-med-prio"
+                checked="on">
+        </div>
+        <div>
+            <label for="todo-high-prio">High:</label>
+            <input type="radio" name="priority" id="todo-high-prio">
+        </div>
+    </form>
+    <button id="submit-todo">Create Todo</button>
+    <script src="main.js"></script>
+    
+</body>
+</html>
